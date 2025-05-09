@@ -24,42 +24,42 @@ const products: Product[] = [
   },
   {
     id: 2,
-    name: "Bolo Red Velvet",
-    description: "Macio bolo vermelho com cobertura de cream cheese",
-    price: "R$ 15,50",
-    image: "https://images.unsplash.com/photo-1586788224331-947f68671cf1?q=80&w=1000&auto=format&fit=crop",
-    category: "doce"
+    name: "Pastel de Carne",
+    description: "Clássico pastel brasileiro recheado com carne moída temperada",
+    price: "R$ 7,50",
+    image: "https://images.unsplash.com/photo-1628294895950-9805252327bc?q=80&w=1000&auto=format&fit=crop",
+    category: "salgado"
   },
   {
     id: 3,
-    name: "Focaccia Italiana",
-    description: "Pão italiano com azeite, alecrim e flor de sal",
-    price: "R$ 18,90",
-    image: "https://images.unsplash.com/photo-1586444248879-bc592f5dc4a0?q=80&w=1000&auto=format&fit=crop",
+    name: "Pastel de Queijo",
+    description: "Delicioso pastel com recheio cremoso de queijo minas",
+    price: "R$ 7,00",
+    image: "https://images.unsplash.com/photo-1618219878829-8afd92751bed?q=80&w=1000&auto=format&fit=crop",
     category: "salgado"
   },
   {
     id: 4,
-    name: "Croissant Francês",
-    description: "Autêntico croissant francês com massa folhada amanteigada",
+    name: "Pastel de Camarão",
+    description: "Pastel gourmet recheado com camarão ao molho especial",
     price: "R$ 9,50",
-    image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1000&auto=format&fit=crop",
     category: "salgado"
   },
   {
     id: 5,
-    name: "Torta de Limão",
-    description: "Torta fresca de limão com base crocante e merengue",
-    price: "R$ 12,90",
-    image: "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?q=80&w=1000&auto=format&fit=crop",
+    name: "Pastel de Chocolate",
+    description: "Pastel doce com recheio generoso de chocolate meio amargo",
+    price: "R$ 8,90",
+    image: "https://images.unsplash.com/photo-1559620192-032c4bc4674e?q=80&w=1000&auto=format&fit=crop",
     category: "doce"
   },
   {
     id: 6,
-    name: "Quiche de Espinafre",
-    description: "Quiche com espinafre fresco, queijo e noz-moscada",
-    price: "R$ 16,50",
-    image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?q=80&w=1000&auto=format&fit=crop",
+    name: "Pastel de Frango",
+    description: "Suculento pastel recheado com frango desfiado temperado",
+    price: "R$ 7,50",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1000&auto=format&fit=crop",
     category: "salgado"
   }
 ];
@@ -78,7 +78,7 @@ const Products = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Nossos Produtos</h2>
           <div className="w-24 h-1 bg-pastry-red mx-auto mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Escolha entre nossa seleção de produtos artesanais feitos diariamente
+            Escolha entre nossa seleção de pastéis artesanais feitos diariamente
           </p>
         </div>
 
@@ -158,7 +158,7 @@ const ProductCard = ({ product }: ProductCardProps) => (
       <img 
         src={product.image} 
         alt={product.name}
-        className="w-full h-full object-cover transition-transform duration-300 hover:scale-105 border-2 border-pastry-red"
+        className="w-full h-full object-cover transition-transform duration-300 hover:scale-105 border-2 border-black"
       />
     </div>
     <CardContent className="p-6">

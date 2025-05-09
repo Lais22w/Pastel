@@ -10,8 +10,8 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-background/90 to-background/70 z-10" />
         <div 
-          className="w-full h-full bg-cover bg-center border-4 border-pastry-red" 
-          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1608198093002-ad4e005484ec?q=80&w=1964&auto=format&fit=crop')` }}
+          className="w-full h-full bg-cover bg-center border-4 border-black" 
+          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=1964&auto=format&fit=crop')` }}
         />
       </div>
 

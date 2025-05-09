@@ -18,9 +18,9 @@ const About = () => {
           <div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1556742393-d75f468bfcb0?q=80&w=2080&auto=format&fit=crop"
-                alt="Nossa padaria" 
-                className="rounded-lg shadow-lg w-full object-cover h-[500px] border-4 border-pastry-red"
+                src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?q=80&w=2080&auto=format&fit=crop"
+                alt="Nossa pastelaria" 
+                className="rounded-lg shadow-lg w-full object-cover h-[500px] border-4 border-black"
               />
               <div className="absolute -bottom-6 -right-6 bg-pastry-red text-white p-4 rounded-lg shadow-lg">
                 <p className="font-playfair text-xl">Desde 2010</p>
