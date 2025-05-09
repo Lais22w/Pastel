@@ -27,14 +27,14 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <Button 
               size="lg"
-              className="bg-pastry-gold hover:bg-pastry-gold/90 text-white rounded-full px-8"
+              className="bg-pastry-blue hover:bg-pastry-blue/90 text-white rounded-full px-8"
             >
               Cardápio
             </Button>
             <Button 
               variant="outline" 
               size="lg"
-              className="border-pastry-gold text-pastry-gold hover:bg-pastry-gold/10 rounded-full px-8"
+              className="border-pastry-blue text-pastry-blue hover:bg-pastry-blue/10 rounded-full px-8"
             >
               Entre em contato
             </Button>
@@ -44,7 +44,7 @@ const Hero = () => {
 
       {/* Decorative Elements */}
       <div className="absolute bottom-0 right-0 w-1/3 h-1/2 bg-pastry-cream/20 -z-10 rounded-tl-[100px]" />
-      <div className="absolute bottom-20 right-20 w-24 h-24 rounded-full bg-pastry-gold/10 -z-10" />
+      <div className="absolute bottom-20 right-20 w-24 h-24 rounded-full bg-pastry-blue/10 -z-10" />
     </section>
   );
 };

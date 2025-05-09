@@ -8,7 +8,7 @@ const About = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Nossa História</h2>
-          <div className="w-24 h-1 bg-pastry-gold mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-pastry-blue mx-auto mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Descubra a paixão e dedicação por trás de cada uma de nossas criações
           </p>
@@ -22,7 +22,7 @@ const About = () => {
                 alt="Nossa padaria" 
                 className="rounded-lg shadow-lg w-full object-cover h-[500px]"
               />
-              <div className="absolute -bottom-6 -right-6 bg-pastry-gold text-white p-4 rounded-lg shadow-lg">
+              <div className="absolute -bottom-6 -right-6 bg-pastry-blue text-white p-4 rounded-lg shadow-lg">
                 <p className="font-playfair text-xl">Desde 1998</p>
               </div>
             </div>
@@ -51,16 +51,10 @@ const About = () => {
   );
 };
 
-interface FeatureCardProps {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-}
-
-const FeatureCard = ({ icon, title, description }: FeatureCardProps) => (
+const FeatureCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => (
   <div className="flex flex-col items-center text-center">
-    <div className="w-12 h-12 bg-pastry-gold/10 rounded-full flex items-center justify-center mb-3">
-      <div className="text-pastry-gold">{icon}</div>
+    <div className="w-12 h-12 bg-pastry-blue/10 rounded-full flex items-center justify-center mb-3">
+      <div className="text-pastry-blue">{icon}</div>
     </div>
     <h4 className="font-medium mb-1">{title}</h4>
     <p className="text-sm text-muted-foreground">{description}</p>

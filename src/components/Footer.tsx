@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="py-12 px-4 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center">
-              <Cake className="h-6 w-6 mr-2 text-pastry-gold" />
+              <Cake className="h-6 w-6 mr-2 text-pastry-blue" />
               <span className="font-playfair text-xl font-semibold text-white">Dolce Pastelaria</span>
             </div>
             <p className="text-background/70 text-sm">
@@ -60,9 +60,9 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Seu email"
-                className="bg-foreground/20 border border-background/20 text-white py-2 px-3 rounded-l-md focus:outline-none focus:ring-1 focus:ring-pastry-gold focus:border-pastry-gold w-full text-sm"
+                className="bg-foreground/20 border border-background/20 text-white py-2 px-3 rounded-l-md focus:outline-none focus:ring-1 focus:ring-pastry-blue focus:border-pastry-blue w-full text-sm"
               />
-              <button className="bg-pastry-gold hover:bg-pastry-gold/90 text-white py-2 px-4 rounded-r-md text-sm">
+              <button className="bg-pastry-blue hover:bg-pastry-blue/90 text-white py-2 px-4 rounded-r-md text-sm">
                 Enviar
               </button>
             </div>

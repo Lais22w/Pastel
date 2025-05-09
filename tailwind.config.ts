@@ -64,7 +64,8 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				pastry: {
-					"gold": "#D4AF37",
+					"gold": "#1EAEDB",
+					"blue": "#1EAEDB",
 					"cream": "#FFF8E1",
 					"brown": "#8B4513",
 					"pink": "#FFDEE2",

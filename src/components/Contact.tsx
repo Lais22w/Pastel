@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Entre em Contato</h2>
-          <div className="w-24 h-1 bg-pastry-gold mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-pastry-blue mx-auto mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Estamos sempre disponíveis para lhe atender e responder suas dúvidas
           </p>
@@ -49,7 +49,7 @@ const Contact = () => {
                       />
                     </div>
                     
-                    <Button className="w-full bg-pastry-gold hover:bg-pastry-gold/90 text-white">
+                    <Button className="w-full bg-pastry-blue hover:bg-pastry-blue/90 text-white">
                       Enviar mensagem
                     </Button>
                   </div>
@@ -88,7 +88,7 @@ const Contact = () => {
               <p className="text-foreground/80 mb-4">
                 Planejando um evento especial? Entre em contato para encomendas personalizadas para casamentos, aniversários e eventos corporativos.
               </p>
-              <Button variant="outline" className="border-pastry-gold text-pastry-gold hover:bg-pastry-gold/10">
+              <Button variant="outline" className="border-pastry-blue text-pastry-blue hover:bg-pastry-blue/10">
                 Fazer uma encomenda
               </Button>
             </div>
@@ -107,8 +107,8 @@ interface ContactInfoProps {
 
 const ContactInfo = ({ icon, title, content }: ContactInfoProps) => (
   <div className="flex gap-4">
-    <div className="w-10 h-10 bg-pastry-gold/10 rounded-full flex items-center justify-center shrink-0">
-      <div className="text-pastry-gold">{icon}</div>
+    <div className="w-10 h-10 bg-pastry-blue/10 rounded-full flex items-center justify-center shrink-0">
+      <div className="text-pastry-blue">{icon}</div>
     </div>
     <div>
       <h4 className="font-medium mb-1">{title}</h4>

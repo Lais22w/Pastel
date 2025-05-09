@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="flex items-center">
-          <Cake className="h-6 w-6 mr-2 text-pastry-gold" />
+          <Cake className="h-6 w-6 mr-2 text-pastry-blue" />
           <span className="font-playfair text-xl font-semibold">Dolce Pastelaria</span>
         </div>
 
