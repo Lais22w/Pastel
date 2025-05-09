@@ -76,7 +76,7 @@ const Products = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Nossos Produtos</h2>
-          <div className="w-24 h-1 bg-pastry-blue mx-auto mb-6"></div>
+          <div className="w-24 h-1 bg-pastry-red mx-auto mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Escolha entre nossa seleção de produtos artesanais feitos diariamente
           </p>
@@ -112,7 +112,7 @@ const Products = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button className="bg-pastry-blue hover:bg-pastry-blue/90 text-white rounded-full px-8">
+          <Button className="bg-pastry-red hover:bg-pastry-red/90 text-white rounded-full px-8">
             Ver cardápio completo
           </Button>
         </div>
@@ -133,7 +133,7 @@ const FilterButton = ({ children, active, onClick }: FilterButtonProps) => (
     className={cn(
       "px-5 py-2 rounded-full transition-all",
       active 
-        ? "bg-pastry-blue text-white" 
+        ? "bg-pastry-red text-white" 
         : "bg-secondary text-foreground/70 hover:bg-secondary/80"
     )}
   >
@@ -158,16 +158,16 @@ const ProductCard = ({ product }: ProductCardProps) => (
       <img 
         src={product.image} 
         alt={product.name}
-        className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+        className="w-full h-full object-cover transition-transform duration-300 hover:scale-105 border-2 border-pastry-red"
       />
     </div>
     <CardContent className="p-6">
       <div className="flex justify-between items-start mb-3">
         <h3 className="font-bold text-lg">{product.name}</h3>
-        <span className="text-pastry-blue font-medium">{product.price}</span>
+        <span className="text-pastry-red font-medium">{product.price}</span>
       </div>
       <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
-      <Button variant="outline" size="sm" className="w-full border-pastry-blue text-pastry-blue hover:bg-pastry-blue/10">
+      <Button variant="outline" size="sm" className="w-full border-pastry-red text-pastry-red hover:bg-pastry-red/10">
         Adicionar ao carrinho
       </Button>
     </CardContent>

@@ -65,7 +65,8 @@ export default {
 				},
 				pastry: {
 					"gold": "#1EAEDB",
-					"blue": "#1EAEDB",
+					"blue": "#ea384c",
+					"red": "#ea384c",
 					"cream": "#FFF8E1",
 					"brown": "#8B4513",
 					"pink": "#FFDEE2",
