@@ -18,31 +18,31 @@ const About = () => {
           <div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?q=80&w=2080&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1556742393-d75f468bfcb0?q=80&w=2080&auto=format&fit=crop"
                 alt="Nossa padaria" 
                 className="rounded-lg shadow-lg w-full object-cover h-[500px]"
               />
               <div className="absolute -bottom-6 -right-6 bg-pastry-blue text-white p-4 rounded-lg shadow-lg">
-                <p className="font-playfair text-xl">Desde 1998</p>
+                <p className="font-playfair text-xl">Desde 2010</p>
               </div>
             </div>
           </div>
 
           <div>
             <h3 className="text-2xl md:text-3xl font-bold mb-6 font-playfair">
-              Uma tradição de sabor e qualidade
+              Tradição e inovação em cada receita
             </h3>
             <p className="mb-6 text-foreground/80">
-              Fundada há mais de 25 anos, a Dolce Pastelaria nasceu da paixão pela arte da confeitaria tradicional. Começamos como uma pequena loja familiar e crescemos graças ao carinho dos nossos clientes e ao compromisso com a qualidade.
+              Nossa história começou com uma paixão pela confeitaria artesanal e o desejo de criar produtos que encantassem pelo sabor e pela apresentação. Com técnicas aprimoradas ao longo dos anos, criamos uma experiência gastronômica única.
             </p>
             <p className="mb-8 text-foreground/80">
-              Hoje, continuamos fiéis às nossas raízes, combinando técnicas tradicionais com toques contemporâneos para criar doces e salgados que são verdadeiras obras de arte.
+              Hoje, combinamos tradição e inovação, utilizando ingredientes selecionados para criar doces e salgados que não são apenas deliciosos, mas verdadeiras obras de arte.
             </p>
 
             <div className="grid grid-cols-3 gap-4">
-              <FeatureCard icon={<Utensils />} title="Artesanal" description="Receitas exclusivas feitas à mão" />
-              <FeatureCard icon={<Award />} title="Qualidade" description="Ingredientes premium selecionados" />
-              <FeatureCard icon={<Users />} title="Tradição" description="Conhecimento passado por gerações" />
+              <FeatureCard icon={<Utensils />} title="Artesanal" description="Produção diária e caseira" />
+              <FeatureCard icon={<Award />} title="Qualidade" description="Ingredientes premium" />
+              <FeatureCard icon={<Users />} title="Experiência" description="Equipe especializada" />
             </div>
           </div>
         </div>

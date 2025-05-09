@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-background/90 to-background/70 z-10" />
         <div 
           className="w-full h-full bg-cover bg-center" 
-          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1517433670267-08bbd4be890f?q=80&w=1964&auto=format&fit=crop')` }}
+          style={{ backgroundImage: `url('https://images.unsplash.com/photo-1608198093002-ad4e005484ec?q=80&w=1964&auto=format&fit=crop')` }}
         />
       </div>
 
@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-2xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 animate-fade-in">
-            Sabores que encantam em cada mordida
+            Arte e sabor em cada criação
           </h1>
           <p className="text-lg md:text-xl mb-8 text-foreground/80 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             Descubra o prazer de uma pastelaria artesanal feita com ingredientes selecionados e muito amor.
@@ -29,14 +29,14 @@ const Hero = () => {
               size="lg"
               className="bg-pastry-blue hover:bg-pastry-blue/90 text-white rounded-full px-8"
             >
-              Cardápio
+              Ver produtos
             </Button>
             <Button 
               variant="outline" 
               size="lg"
               className="border-pastry-blue text-pastry-blue hover:bg-pastry-blue/10 rounded-full px-8"
             >
-              Entre em contato
+              Fazer pedido
             </Button>
           </div>
         </div>

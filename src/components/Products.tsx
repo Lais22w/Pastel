@@ -16,51 +16,51 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    name: "Éclair de Chocolate",
-    description: "Massa choux recheada com creme de chocolate belga",
-    price: "R$ 12,90",
-    image: "https://images.unsplash.com/photo-1603532648955-039310d9ed75?q=80&w=1000&auto=format&fit=crop",
+    name: "Pastel de Nata",
+    description: "Tradicional pastel português com creme de custard e canela",
+    price: "R$ 8,90",
+    image: "https://images.unsplash.com/photo-1579302628241-0d09aa27a037?q=80&w=1000&auto=format&fit=crop",
     category: "doce"
   },
   {
     id: 2,
-    name: "Croissant de Amêndoas",
-    description: "Croissant artesanal coberto com amêndoas e açúcar",
+    name: "Bolo Red Velvet",
+    description: "Macio bolo vermelho com cobertura de cream cheese",
     price: "R$ 15,50",
-    image: "https://images.unsplash.com/photo-1623334044303-241021148842?q=80&w=1000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1586788224331-947f68671cf1?q=80&w=1000&auto=format&fit=crop",
     category: "doce"
   },
   {
     id: 3,
-    name: "Quiche Lorraine",
-    description: "Quiche tradicional com bacon, queijo e creme fresco",
+    name: "Focaccia Italiana",
+    description: "Pão italiano com azeite, alecrim e flor de sal",
     price: "R$ 18,90",
-    image: "https://images.unsplash.com/photo-1605716857594-73aca1ea4e22?q=80&w=1000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1586444248879-bc592f5dc4a0?q=80&w=1000&auto=format&fit=crop",
     category: "salgado"
   },
   {
     id: 4,
-    name: "Macaron de Framboesa",
-    description: "Delicado macaron com recheio de framboesa fresca",
+    name: "Croissant Francês",
+    description: "Autêntico croissant francês com massa folhada amanteigada",
     price: "R$ 9,50",
-    image: "https://images.unsplash.com/photo-1558326567-98ae2405596b?q=80&w=1000&auto=format&fit=crop",
-    category: "doce"
-  },
-  {
-    id: 5,
-    name: "Pão de Fermentação Natural",
-    description: "Pão artesanal com fermentação de 24 horas",
-    price: "R$ 16,90",
-    image: "https://images.unsplash.com/photo-1585478259715-4d3f5955df01?q=80&w=1000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1000&auto=format&fit=crop",
     category: "salgado"
   },
   {
-    id: 6,
-    name: "Tartelete de Frutas",
-    description: "Base crocante com creme e frutas frescas da estação",
-    price: "R$ 14,50",
-    image: "https://images.unsplash.com/photo-1464195244916-405fa0a82545?q=80&w=1000&auto=format&fit=crop",
+    id: 5,
+    name: "Torta de Limão",
+    description: "Torta fresca de limão com base crocante e merengue",
+    price: "R$ 12,90",
+    image: "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?q=80&w=1000&auto=format&fit=crop",
     category: "doce"
+  },
+  {
+    id: 6,
+    name: "Quiche de Espinafre",
+    description: "Quiche com espinafre fresco, queijo e noz-moscada",
+    price: "R$ 16,50",
+    image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?q=80&w=1000&auto=format&fit=crop",
+    category: "salgado"
   }
 ];
 
@@ -113,7 +113,7 @@ const Products = () => {
 
         <div className="text-center mt-12">
           <Button className="bg-pastry-blue hover:bg-pastry-blue/90 text-white rounded-full px-8">
-            Ver todo o cardápio
+            Ver cardápio completo
           </Button>
         </div>
       </div>
@@ -168,7 +168,7 @@ const ProductCard = ({ product }: ProductCardProps) => (
       </div>
       <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
       <Button variant="outline" size="sm" className="w-full border-pastry-blue text-pastry-blue hover:bg-pastry-blue/10">
-        Encomendar
+        Adicionar ao carrinho
       </Button>
     </CardContent>
   </Card>
